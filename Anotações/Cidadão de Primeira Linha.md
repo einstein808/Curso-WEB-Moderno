@@ -1,8 +1,14 @@
 # Table Of Contents.
 
-1. [Funções de primeria linha.] (#Funções de primeira linha.)
+1. [Funções de Primeira Linha.](#Funções de primeira linha.)
+2. [Parametros e Retornos são opcionais.](#Parâmetros e Retorno São Opcionais)
+3. 
+
+
 
 # Funções de primeira linha.
+
+
 
 > função em js é first - class object
 >
@@ -55,3 +61,8 @@
   ```
 
   
+
+
+
+#  Parâmetros e Retorno São Opcionais
+

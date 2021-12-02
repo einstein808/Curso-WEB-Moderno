@@ -66,3 +66,8 @@
 
 #  Parâmetros e Retorno São Opcionais
 
+- [Table Of Contents.](#table-of-contents)
+- [Funções de primeira linha.](#funções-de-primeira-linha)
+- [Parâmetros e Retorno São Opcionais](#par-metros-e-retorno-s-o-opcionais)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>

@@ -1,10 +1,10 @@
 # Table Of Contents.
 
-1. [Funções de Primeira Linha.](#Funções de primeira linha.)
-2. [Parametros e Retornos são opcionais.](#Parâmetros e Retorno São Opcionais)
+1. [Funções de Primeira Linha.](#funções-de-primeira-linha.)
+2. [Parametros e Retornos são opcionais.](#parâmetros-e-retorno-são-opcionais)
 3. 
 
-<a name = "Funções de primeira linha."/>
+
 
 # Funções de primeira linha.
 
@@ -70,4 +70,3 @@
 - [Funções de primeira linha.](#funções-de-primeira-linha)
 - [Parâmetros e Retorno São Opcionais](#par-metros-e-retorno-s-o-opcionais)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>

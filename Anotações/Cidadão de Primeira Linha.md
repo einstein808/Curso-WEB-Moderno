@@ -4,7 +4,7 @@
 2. [Parametros e Retornos são opcionais.](#Parâmetros e Retorno São Opcionais)
 3. 
 
-
+<a name = "Funções de primeira linha."/>
 
 # Funções de primeira linha.
 

@@ -160,4 +160,3 @@ console.log(soma(1.1, 2.2, "teste"))
   
 
  [91-modulo3-parametroPadrao.js](../Aula./Módulo 3/91-modulo3-parametroPadrao.js) 
-

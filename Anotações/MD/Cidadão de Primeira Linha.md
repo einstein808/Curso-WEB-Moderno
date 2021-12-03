@@ -3,6 +3,8 @@
 1. [Funções de Primeira Linha.](#funções-de-primeira-linha.)
 2. [Parametros e Retornos são opcionais.](#parâmetros-e-retorno-são-opcionais)
 3. [Parâmetro Padrão](#parâmetro-padrão)
+4. [this pode variar.](#this-pode-variar.)
+5. [Funcão bind.](#funcão-bind.)
 
 
 
@@ -60,9 +62,8 @@
   soma(2,3)(4)
   ```
 
-  
 
-
+[para cima](#table-of-contents.)
 
 #  Parâmetros e Retorno São Opcionais🙃
 
@@ -104,6 +105,8 @@ console.log(soma(1.1, 2.2, "teste"))
 > rest e espred.
 
  [aula90-módulo3-Parâmetros-variaveis.js](../../Aula./Modulo3/aula90-módulo3-Parâmetros-variaveis.js) 
+
+[para cima](#table-of-contents.)
 
 # Parâmetro Padrão🦧
 
@@ -157,7 +160,76 @@ console.log(soma(1.1, 2.2, "teste"))
 
   abaixo segue o código para teste.
 
-  
 
  [91-modulo3-parametroPadrao.js](../../Aula./Modulo3/91-modulo3-parametroPadrao.js) 
+
+[para cima](#table-of-contents.)
+
+# this pode variar.
+
+* voce pode criar um objeto apatir de uma classe.
+
+* this ele referencia quem é o dono do elemento.
+
+  > javascript pode variar.
+
+##### this sempre é o objeto que está no contesto de execucao
+
+```javascript
+function f1(){
+    console.log(this === window)
+}
+f1()
+//nesse caso onde function esta sendo executado no contesto global
+// retornar true
+```
+
+isso custuma gerar muita confusão.🤔
+
+* **Arrow function teve dois motivos para ser criada.**
+  * é ter um this que nao varia
+  * e diminuir sintax.
+
+ [aula92-thisPodeVariar.js](../../Aula./Modulo3/aula92-thisPodeVariar.js) 
+
+[para cima](#table-of-contents.)
+
+### Funcão bind.
+
+* criando uma funcao abaixo, quando executar pessoa.falar vai retornar bom dia.
+
+```javascript
+const pessoa ={
+    saudacao:'bom dia',
+    falar(){
+        console.log(this.saudacao)
+    }
+}
+pessoa.falar()
+```
+
+no segundo cenário vai atribuir um valor para variavel global e se tentar execuar vai dar undifined.
+
+ja que constesto dessa variável é diferendo do contesto anterior.
+
+```javascript
+pessoa.falar()
+console.falar = pessoa.falar
+falar() // condlito entre paradigmas:funcional e oo
+```
+
+Para resolver isso existe o bild onde voce pode setar a referencia do this.
+
+```javascript
+const falarDePessoa = pessoa.falar.bind(pessoa)
+falarDePessoa()
+```
+
+
+
+[93-modulo3-Build.js](../../Aula./Modulo3/93-modulo3-Build.js) 
+
+[aula93-thisPodeVariar.js](../../Aula./Modulo3/aula93-thisPodeVariar.js) 
+
+[para cima](#table-of-contents.)
 

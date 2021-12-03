@@ -1,4 +1,4 @@
-# Table Of Contents.
+Table Of Contents.
 
 1. [Funções de Primeira Linha.](#funções-de-primeira-linha.)
 2. [Parametros e Retornos são opcionais.](#parâmetros-e-retorno-são-opcionais)
@@ -66,3 +66,7 @@
 
 #  Parâmetros e Retorno São Opcionais
 
+Paremetros pode ser passados quantos você quiser.
+Pode ter paremetros variáveis
+
+ [aula90-módulo3-Parâmetros-variaveis.js](../Aula./aula90-módulo3-Parâmetros-variaveis.js) 

@@ -103,7 +103,7 @@ console.log(soma(1.1, 2.2, "teste"))
 > esse ja tem uma operadore responsavel para fazer esse tipo de operacao
 > rest e espred.
 
- [aula90-módulo3-Parâmetros-variaveis.js](../Modulo3/aula90-módulo3-Parâmetros-variaveis.js) 
+ [aula90-módulo3-Parâmetros-variaveis.js](/home/einstein808/Projetos/GIt/Curso-WEB-Moderno/Aula./Modulo3/aula90-módulo3-Parâmetros-variaveis.js) 
 
 # Parâmetro Padrão🦧
 
@@ -159,4 +159,5 @@ console.log(soma(1.1, 2.2, "teste"))
 
   
 
- [91-modulo3-parametroPadrao.js](../Modulo3/91-modulo3-parametroPadrao.js) 
+ [91-modulo3-parametroPadrao.js](/home/einstein808/Projetos/GIt/Curso-WEB-Moderno/Aula./Modulo3/91-modulo3-parametroPadrao.js)  
+

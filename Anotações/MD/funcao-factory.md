@@ -24,3 +24,7 @@ sobrenome: "silva"
 }}
 ```
 
+Pode se criar com classe ou function.
+
+vantagem é que no browser a funcao construtora sempre vai saber onde foi criada. Caso do this.
+
